@@ -50,6 +50,10 @@ The Example proto contains the following fields:
   image/segmentation/class/encoded: encoded semantic segmentation content.
   image/segmentation/class/format: semantic segmentation file format.
 """
+"""
+run sample
+build_severtal_data.py --image_format=jpg --label_format=png
+"""
 import math
 import os.path
 import sys
