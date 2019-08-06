@@ -64,7 +64,7 @@ tf.app.flags.DEFINE_string('image_folder',
 
 tf.app.flags.DEFINE_string(
     'semantic_segmentation_folder',
-    '/root/severstal-steel-defect-detection/label_images',
+    '/root/severstal-steel-defect-detection/train_labels',
     'Folder containing semantic segmentation annotations.')
 
 tf.app.flags.DEFINE_string(
