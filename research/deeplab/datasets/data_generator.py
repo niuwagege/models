@@ -100,7 +100,9 @@ _SEVERSTAL_INFORMATION = DatasetDescriptor(
     splits_to_sizes={
         'train': 5332,
         'val': 1334
-    }
+    },
+    num_classes=5,
+    ignore_label=0,
 )
 
 _DATASETS_INFORMATION = {
@@ -111,7 +113,7 @@ _DATASETS_INFORMATION = {
 }
 
 # Default file pattern of TFRecord of TensorFlow Example.
-_FILE_PATTERN = '%s-*'
+_FILE_PATTERN = '%s_*'
 
 
 def get_cityscapes_dataset_name():
